@@ -1,6 +1,6 @@
 ### 我的博客
 
-地址：[http://hadesmo.org](http://hadesmo.com)
+地址：[http://hadesmo.com](http://hadesmo.com)
 
 ### 安装说明
 
