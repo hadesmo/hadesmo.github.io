@@ -16,3 +16,6 @@ description:
 
 - 文章围绕技术相关来展开，可以但不限于：读书笔记、开源项目、工作感悟、新技术心得等。
 
+![image](/public/upload/img/2015-04-18-hello-world.md/hello-world.png)
+
+

@@ -13,7 +13,7 @@ description:
 
 > WebRTC（Web Real-Time Communication）是一个开源项目（2010年5月，Google以6820万美元收购VoIP软件开发商Global IP Solutions的GIPS引擎，并改为名为“WebRTC”），旨在让Web开发者能够基于Web浏览器轻易快捷开发出丰富的实时多媒体应用，而无需下载安装任何插件，Web开发者也无需关注多媒体的数字信号处理过程，只需编写简单的Javascript程序即可实现。W3C等组织正在制定Javascript 标准API。同时，Google也希望和致力于让WebRTC的技术成为HTML5标准之一。
 
-可以通过《Getting Started with WebRTC》对webtrc有个更清晰的认识，由于网络上已经有很多涉及webrtc技术的文章，这里就不再详细讨论了，更多相关资料：
+可以通过[《Getting Started with WebRTC》](http://www.html5rocks.com/en/tutorials/webrtc/basics/?redirect_from_locale=zh)对webtrc有个更清晰的认识，由于网络上已经有很多涉及webrtc技术的文章，这里就不再详细讨论了，更多相关资料：
 
 * webRTC中文社区： <http://www.webrtcbbs.com/forum.php>
 * webRTC源代码（Note：需要翻墙，方可下载）：
@@ -23,13 +23,13 @@ git clone <https://chromium.googlesource.com/external/webrtc>
 
 [Licode](http://lynckia.com/licode/index.html)是基于webRTC技术之上的开源项目，通过更便捷（easy，fast and scalable）的接口你可以快速搭建出基于webRTC技术的网络视频会议系统，或者与此类似的系统。你可以通过[Try it!](http://chotis2.dit.upm.es/)对Licode有个更为直观的认识。Licode的GitHub地址：<https://github.com/ging/licode>
 
-![image](/public/upload/img/2015-05-19-getting-started-with-webrtc.md/licode.png)
+![image](/public/upload/img/2015-05-23-getting-started-with-webrtc.md/licode.png)
 
 # 初识Licode架构
 
 官方给出的Licode架构如下图：
 
-![image](/public/upload/img/2015-05-19-getting-started-with-webrtc.md/licode-architecture.png)
+![image](/public/upload/img/2015-05-23-getting-started-with-webrtc.md/licode-architecture.png)
 
 **Note：因为有动画效果，点击这里查看更多细节<http://lynckia.com/licode/architecture.html>**
 
@@ -73,7 +73,7 @@ Vagrant初始化成功后，会在当前目录下生成Vagrantfile文件，直�
 
 执行成功之后，通过chrome浏览器 connect to "localhost:3001" and test your basic videoconference example：
 
-![image](/public/upload/img/2015-05-19-getting-started-with-webrtc.md/licode-test.png)
+![image](/public/upload/img/2015-05-23-getting-started-with-webrtc.md/licode-test.png)
 
 # 写在后面
 
@@ -84,5 +84,6 @@ Vagrant初始化成功后，会在当前目录下生成Vagrantfile文件，直�
 * WebRTC: 无客户端也能实时通信：<http://cube.qq.com/?p=105>
 * webRTC维基百科：<http://zh.wikipedia.org/zh-cn/WebRTC>
 * webRTC入门指南（html5rocks版）：<http://www.webrtcbbs.com/forum.php?mod=viewthread&tid=11&extra=page%3D1>
+* Getting Started with WebRTC：<http://www.html5rocks.com/en/tutorials/webrtc/basics/?redirect_from_locale=zh>
 * Licode官网：<http://lynckia.com/licode/index.html>
 * Vagrant的介绍：<https://github.com/astaxie/Go-in-Action/blob/master/ebook/zh/01.1.md>
