@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Licode(一)：入门介绍
-category: 技术                                                                                                                                                
+title: Licode（一）：入门介绍
+category: 技术
 tags: [webRTC, Licode]
 keywords: webRTC,Licode
 description: 
@@ -36,7 +36,7 @@ git clone <https://chromium.googlesource.com/external/webrtc>
 Licode由四个模块组成：
 
 * Erizo：基于webRTC针对视频会议场景的一对多组件，官方叫法为：MCU(Multipoint Control Unit)
-* Erizo API：Erozo的NodeJs版本
+* Erizo API：Erizo的NodeJs版本
 * Erizo Controller：负责管理（manage）视频会议sessions
 * Nuve：负责管理（manage）服务器资源（会议房间、与会用户、加入凭证等）
 
