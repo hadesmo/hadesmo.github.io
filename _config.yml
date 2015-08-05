@@ -7,13 +7,13 @@ kramdown:
 
 # 作者信息
 author: 
-  name: 莫璇
+  name: hadesmo
   email: hadesmo1986@gmail.com
   link: http://hadesmo.com
   github: http://github.com/hadesmo
 
 # 站点信息
-title: 莫璇的博客 
+title: hadesmo的博客 
 description: 这家伙很懒，什么都没留下... 
 url: http://hadesmo.org
 rss_url: /pages/atom.xml
