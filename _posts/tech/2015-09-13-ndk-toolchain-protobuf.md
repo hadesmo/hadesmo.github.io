@@ -37,7 +37,7 @@ description:
 
 ```
 #!/bin/bash
-export NDK=**YOUR_NDK_PATH**/android-ndk-r10e
+export NDK=YOUR_NDK_PATH/android-ndk-r10e
 export SYSROOT=$NDK/platforms/android-15/arch-arm/
 
 export TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/
