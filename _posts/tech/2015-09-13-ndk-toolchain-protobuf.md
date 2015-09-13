@@ -76,7 +76,7 @@ build_one
 # arm-linux-androideabi-readelf -A build/lib/libprotobuf-lite.a
 ```
 
-注意：CXXSTL变量的值，需要根据你下载的ndk版本进行相应的调整，也尝试过使用portstl库，但发现编译不通过，所以使用了gnustl库
+注意：CXXSTL变量的值指定依赖的stl库所在路径，也尝试过使用portstl库，但发现编译不通过，所以使用了gnustl库
 
 - 执行编译脚本```./build_android.sh```，编译时间可能较长请耐心等待
 
