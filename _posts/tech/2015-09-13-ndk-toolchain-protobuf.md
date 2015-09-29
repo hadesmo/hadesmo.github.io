@@ -1,11 +1,12 @@
 ---
 
 layout: post
-title: 使用toolchian编译protobuf库
+title: android ndk中使用protobuf库
 category: 技术
 
-tags: [protobuf, ndk, toolchian, android ]
-keywords: protobuf;ndk;toolchian;android
+tags: [protobuf, android, ndk, toolchian ]
+
+keywords: protobuf;android;ndk;toolchian;
 
 description:
 ---
