@@ -19,7 +19,7 @@ IOS平台下编译成静态库和Android平台下有很大的不同，Android平
 
 >The Native Development Kit (NDK) is a set of tools that allow you to leverage C and C++ code in your Android apps. You can use it either to build from your own source code, or to take advantage of existing prebuilt libraries.
 
-而且可以通过```Android.mk```的build file来组织C/C++源码文件，```Android.mk```语法和```MakeFile```文件很相似。
+而且可以通过```Android.mk```（build file）来组织C/C++源码文件，```Android.mk```语法和```MakeFile```文件很相似。
 
 IOS平台下编译成静态库则相对来说比较简单：通过创建特定的Xcode项目（Cocoa Touch Static Library）、导入源码文件并点击编译即可。
 
