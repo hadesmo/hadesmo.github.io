@@ -11,7 +11,7 @@ keywords: ios;mac;Xcode;jrtplib;
 description:
 ---
 
-最近在开发有关一个屏幕分享的IOS版本的app，因通信协议部分采用了RTP/RTCP协议，所以需要将jrtplib库移植到IOS平台下。而google了下，发现关于如何在IOS平台（或者说Xcode）下编译jrtplib库的文章很少，所以就有了这边文章，希望能帮到后来者。
+最近在开发一个IOS版本app，因其通信协议部分采用了RTP/RTCP协议，所以需要将jrtplib库移植到IOS平台下。而google（表问我为何不用百度）了下，发现关于如何在IOS平台（或者说Xcode）下编译jrtplib库的文章很少，所以就有了这边文章，希望能帮到后来者。
 
 ## Xcode下如何生成静态库
 
